@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="icon"><img src={phonePic} /></div>
+          <div class="icon"><img src={phonePic} alt='Phone'/></div>
           <div class="contact-info">
             <h1>Phone</h1>
             <h2>+92 304 7533 611 </h2>
@@ -21,14 +21,14 @@ const Contact = () => {
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src={emailPic} /></div>
+          <div class="icon"><img src={emailPic} alt='Email'/></div>
           <div class="contact-info">
             <h1>Email</h1>
             <h2>ameerhamzag75@gmail.com</h2>
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src={addressPic} /></div>
+          <div class="icon"><img src={addressPic} alt='Address'/></div>
           <div class="contact-info">
             <h1>Address</h1>
             <h2>House no #21, Jinnah Town, Khanpur district RahimYar Khan, Pakistan</h2>

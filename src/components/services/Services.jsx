@@ -27,7 +27,7 @@ const Services = () => {
                 <div className="service-bottom">
                     <div className="service-item">
                         <div className="icon">
-                            <img src={web1} />
+                            <img src={web1} alt='Web'/>
                         </div>
                         <h2>Responsive UI/UX Design</h2>
                         <p>
@@ -41,7 +41,7 @@ const Services = () => {
                     </div>
                     <div className="service-item">
                         <div className="icon">
-                            <img src={web2} />
+                            <img src={web2} alt='Web2'/>
                         </div>
                         <h2>Component-Based Development</h2>
                         <p>
@@ -53,7 +53,7 @@ const Services = () => {
                     </div>
                     <div className="service-item">
                         <div className="icon">
-                            <img src={web3} />
+                            <img src={web3} alt='Web' />
                         </div>
                         <h2>Performance Optimization</h2>
                         <p>
@@ -65,7 +65,7 @@ const Services = () => {
                     </div>
                     <div className="service-item">
                         <div className="icon">
-                            <img src={web4} />
+                            <img src={web4} alt='web'/>
                         </div>
                         <h2>Collaborative Problem Solving</h2>
                         <p>
