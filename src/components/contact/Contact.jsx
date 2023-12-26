@@ -7,31 +7,31 @@ import Footer from '../footer/Footer';
 const Contact = () => {
   return (
     <section id="contact">
-    <div class="contact container">
+    <div className="contact container">
       <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
+        <h1 className="section-title">Contact <span>info</span></h1>
       </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src={phonePic} alt='Phone'/></div>
-          <div class="contact-info">
+      <div className="contact-items">
+        <div className="contact-item">
+          <div className="icon"><img src={phonePic} alt='Phone'/></div>
+          <div className="contact-info">
             <h1>Phone</h1>
             <h2>+92 304 7533 611 </h2>
             <h2>+92 301 1110 793 </h2>
           </div>
         </div>
-        <div class="contact-item">
-          <div class="icon"><img src={emailPic} alt='Email'/></div>
-          <div class="contact-info">
+        <div className="contact-item">
+          <div className="icon"><img src={emailPic} alt='Email'/></div>
+          <div className="contact-info">
             <h1>Email</h1>
             <h2>ameerhamzag75@gmail.com</h2>
           </div>
         </div>
-        <div class="contact-item">
-          <div class="icon"><img src={addressPic} alt='Address'/></div>
-          <div class="contact-info">
+        <div className="contact-item">
+          <div className="icon"><img src={addressPic} alt='Address'/></div>
+          <div className="contact-info">
             <h1>Address</h1>
-            <h2>House no #21, Jinnah Town, Khanpur district RahimYar Khan, Pakistan</h2>
+            <h2>Khanpur District RahimYar Khan, Pakistan</h2>
           </div>
         </div>
       </div>
