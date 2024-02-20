@@ -19,7 +19,7 @@
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
-	height: 400px;
+	height: 60vh;
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
@@ -43,7 +43,12 @@
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#services .service-bottom .icon{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+#services .service-bottom .icon img {			
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;

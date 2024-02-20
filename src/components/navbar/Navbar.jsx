@@ -20,10 +20,6 @@ const Navbar = () => {
     };
 
     document.addEventListener('scroll', handleScroll);
-
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
   },[]);
 
   const headerStyle = {
@@ -89,7 +85,7 @@ const Navbar = () => {
             <h1>&nbsp;&nbsp; &nbsp;Welcome</h1>
             
             <h1> <span>To my</span> Profile</h1>
-            <Link to="/projects" type="button" className="cta">
+            <Link to="/" type="button" className="cta">
               Portfolio
             </Link>
           </div>

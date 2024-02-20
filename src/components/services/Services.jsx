@@ -28,8 +28,8 @@ const Services = () => {
                     <div className="service-item">
                         <div className="icon">
                             <img src={web1} alt='Web'/>
-                        </div>
-                        <h2>Responsive UI/UX Design</h2>
+                            <h2>Responsive UI/UX Design</h2>
+                        </div> 
                         <p>
                             As a React Frontend Developer, I specialize in crafting visually
                             stunning, responsive interfaces for seamless user experiences.
@@ -42,8 +42,8 @@ const Services = () => {
                     <div className="service-item">
                         <div className="icon">
                             <img src={web2} alt='Web2'/>
+                            <h2>Component-Based Development</h2>
                         </div>
-                        <h2>Component-Based Development</h2>
                         <p>
                             I excel in component-based development, leveraging React's modular
                             structure to build scalable and maintainable frontends. Each component
@@ -54,8 +54,8 @@ const Services = () => {
                     <div className="service-item">
                         <div className="icon">
                             <img src={web3} alt='Web' />
+                            <h2>Performance Optimization</h2>
                         </div>
-                        <h2>Performance Optimization</h2>
                         <p>
                             With a focus on performance, I employ React's virtual DOM to optimize
                             rendering speed, resulting in snappy and efficient web applications. I
@@ -66,8 +66,8 @@ const Services = () => {
                     <div className="service-item">
                         <div className="icon">
                             <img src={web4} alt='web'/>
+                            <h2>Collaborative Problem Solving</h2>
                         </div>
-                        <h2>Collaborative Problem Solving</h2>
                         <p>
                             Beyond code, I excel in collaborative problem-solving. Engaging with
                             cross-functional teams, I grasp project requirements to seamlessly
