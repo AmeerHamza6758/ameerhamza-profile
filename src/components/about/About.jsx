@@ -1,10 +1,10 @@
 import React from 'react';
 import './About.css';
 import resume from '../../images/AmeerHamzaResume.pdf';
-import img2 from '../../images/img-2.png'
+import img2 from '../../images/img-2.png';
+
 const About = () => {
   return (
-    
     <section id="about">
       <div className="about container">
         <div className="col-left">
